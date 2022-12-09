@@ -1,0 +1,8 @@
+[
+  {
+    "id": "Simulator",
+    "title": "Simulator",
+    "panel": "panels/Simulator/SimulatorPanel",
+    "DEBUG_ONLY": false
+  }
+]

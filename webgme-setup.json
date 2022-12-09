@@ -1,0 +1,29 @@
+{
+  "components": {
+    "visualizers": {
+      "SimSM": {
+        "src": "panels/Simulator/SimulatorPanel",
+        "title": "Simulator",
+        "panel": "src/visualizers/panels/Simulator",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/Simulator"
+      }
+    },
+    "seeds": {
+      "StateMachine": {
+        "src": "src/seeds/MySeed"
+      }
+    },
+    "plugins": {
+      "MyNewPlugin": {
+        "src": "src/plugins/MyNewPlugin",
+        "test": "test/plugins/MyNewPlugin"
+      }
+    }
+  },
+  "dependencies": {
+    "visualizers": {},
+    "plugins": {},
+    "seeds": {}
+  }
+}
